@@ -24,3 +24,11 @@ jam/
 npm-debug.log
 deps/
 dist
+
+ace-1.4.8*
+aql.js
+aql.snippets
+json5.js
+json5.snippets
+nunjucks.js
+nunjucks.snippets

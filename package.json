@@ -35,6 +35,7 @@
         "start": "node static.js",
         "test": "node lib/ace/test/all.js",
         "lint": "eslint 'lib/ace/**/*.js'",
-        "fix": "eslint --fix 'lib/ace/**/*.js'"
+        "fix": "eslint --fix 'lib/ace/**/*.js'",
+        "ipfs": "sh ./sync-ipfs.sh"
     }
 }
