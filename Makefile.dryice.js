@@ -553,6 +553,7 @@ function exportAce(ns, modules, requireBase, extModules) {
                     if (typeof module == "object" && typeof exports == "object" && module) {
                         module.exports = window.NS;
                     }
+                    window.NS.HASHES='###HASHES###'
                 });
             })();
         };
